@@ -4,6 +4,7 @@ Wordpress plugin to scan and read all images in a directory based on URI
 Example
 If you had an image slider you could use like this
 
+```
 <div class="images-gallery">
         <ul id="lightSlider">
             <?php foreach ( UriImageScanner::getPictures() as $index => $folder ): ?>
@@ -13,3 +14,4 @@ If you had an image slider you could use like this
             <?php endforeach; ?>
          </ul>
 </div>
+```
